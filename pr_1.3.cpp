@@ -1,5 +1,8 @@
 /*
 3. WAP to create class to read time in seconds and convert into time in (HH:MM:SS) format.
+Enter Seconds : 9000
+
+3 : 30 : 0
 */
 
 #include<iostream>
