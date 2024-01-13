@@ -1,5 +1,11 @@
 /*
 4. WAP to create a class which Read and Print House details along with Room details.
+Enter The Type of House : flat
+Enter The house  Location  : abrama road
+Enter The Price of House : 9000000
+Enter The BHK of House : 3
+Enter your society name : abishek luxriya
+You are getting flat At abrama road    For Rupees 9000000 you are getting 3 BHK you are getting societyName abishek luxriya 
 */
 
 #include<iostream>
