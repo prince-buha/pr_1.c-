@@ -1,4 +1,13 @@
-#include<iostream>
+/*
+1. WAP to create a class to read and add two distance. (e.g. 8 feet 16 inch + 4 feet 14 inch = 14 feet 6 inch)
+enter your feet1 : 4
+enter your inch1 : 14
+enter your feet2 : 6
+enter your inch2 : 17
+4Feet14Inch +6Feet31Inch =10Feet31Inch
+
+*/
+#include<iosteram>
 using namespace std;
 class Distance{
 	public: 
