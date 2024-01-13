@@ -1,5 +1,12 @@
 /*
 2. WAP to create a class to read and add two times.
+Enter Hour for 0 :- 1
+Enter Minute for 0 :- 60
+Enter Second for 0 :- 90
+Enter Hour for 1 :- 1
+Enter Minute for 1 :- 70
+Enter Second for 1 :- 80
+1 Hour 60 Minute 90 Second + 1 Hour 70 Minute 80 Second = 3 Hour 71 Minute 110 Second
 */
 #include<iostream>
 	using namespace std;
