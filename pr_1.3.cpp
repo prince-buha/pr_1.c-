@@ -1,30 +1,38 @@
 /*
 3. WAP to create class to read time in seconds and convert into time in (HH:MM:SS) format.
-Enter Seconds : 9000
+ Enter your Seconds :- 7000
+ 
+output:-
+2 : 56 : 40
 
-3 : 30 : 0
 */
 
 #include<iostream>
+
 using namespace std;
-class Time{
-	public:
+
+class watch{
+	public :
 		int hour;
 		int minute;
 		int second;
 };
 int main(){
-	Time h;
-	cout<<"Enter Seconds : ";
-	cin>>h.second;
-	if(h.second>60){
-		h.minute= h.second/60 + h.minute;  
-        h.second %=60;
+	watch w;
+	cout<<" Enter your Seconds :- ";
+	cin>>w.second;
+	if(w.second>60){
+		w.minute= w.second/60 + w.minute;  
+		w.second %= 60;
+        
 	}
-	if(h.minute>60){
-		h.hour=h.minute/60 + h.hour;  
-        h.minute %= 60;
+	if(w.minute>60){
+		w.hour=w.minute/60 + w.hour; 
+		w.minute %= 60; 
+        
 	}
-	cout<<endl<<h.hour<<" : "<<h.minute<<" : "<<h.second;
-	return 0;
+	
+	cout<<endl<<w.hour<<" : "<<w.minute<<" : "<<w.second;
+	
+return 0;
 }
